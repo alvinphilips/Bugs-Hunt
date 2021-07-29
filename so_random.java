@@ -6,7 +6,7 @@ public class so_random {
 
         int randomNum = random.nextInt(4); // Generate a number from 0-4 :)
 
-        switch(randomNum){
+        switch(randomNum) {
             case 0:
                 System.out.println("0 Accepted");
             case 1:
