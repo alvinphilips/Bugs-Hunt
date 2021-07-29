@@ -1,5 +1,5 @@
 # Bugs Hunt
- Hi guys, welcome to Bugs Hunt - an event by CodeLab. We're going to outline a few requirements, as well as instructions on how to run our code. I hope you can have fun, and maybe learn something cool too :)
+ Hi guys, welcome to Bugs Hunt - an event by CodeLab. We're going to outline a few requirements, as well as instructions on how to run our code. I hope you have fun, and maybe learn something cool too :)
  
 ## Requirements
  Our programs are written in Python, C, C++ and Java. While you can solve all of these by plain observation, we ***strongly*** recommend using a text editor and going through our code yourself, and making changes where necessary.
