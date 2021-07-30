@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+# A program to print the number at the ninth index of the fibonacci series
+# 
+# Expected output: 34
+
 def fibo(n):
     if n<0:
         print("Incorrect input")

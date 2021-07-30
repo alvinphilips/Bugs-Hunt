@@ -1,3 +1,15 @@
+#!/usr/bin/env python3
+
+# A program that reads a file and gives everyone cake!
+#
+# Expected output:
+# John Wick gets a slice of cake
+# Chutki gets a slice of cake
+# Voldemort gets a slice of cake
+# Wonder Woman gets a slice of cake
+# Darth Vader gets a slice of cake
+# Captain Jack Sparrow gets a slice of cake
+
 # Read list of names from file
 with open('friendslist', 'r') as names:
     myfriends = []

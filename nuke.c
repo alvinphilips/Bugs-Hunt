@@ -2,6 +2,14 @@
 #include <stdbool.h>
 #include <string.h>
 
+/* You play as an intern at a military base who is tasked
+   with programming their nuclear launch system. What could
+   go wrong, right?
+   
+   Expected output: 
+   The world sleeps safely tonight. Good job soldier!
+ */
+
 // Enum of our Allies (that we definitely won't nuke)
 enum EnemyCountries {
     USA,
@@ -14,7 +22,6 @@ enum EnemyCountries {
 // Function to nuke a country (it's that easy)
 void sendNuke(int countryCode) {
     char country[12];
-
     switch (countryCode) {
         case USA:
             strcpy(country, "USA");

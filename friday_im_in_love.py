@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+# A program that prints out a message based on the day of the week
+#
+# Expected output: Last day of the week!
+
 # Print the message for the day
 def print_message(day):
     messages = {

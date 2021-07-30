@@ -1,6 +1,17 @@
 #include <stdio.h>
 #include <string.h>
 
+/* A program that creates a burger with options for the bread and number
+   of slices. It then asks for what to call it, and prints out your order.
+
+   Expected output:
+   Type of bread: 1
+   Number of cheese slices: 23
+   Name of Burger: McSpicy Chicken
+   Type of bread: 1
+   Number of cheese slices: 23
+*/
+
 typedef enum {
     HONEY_OAT,      // 0
     ITALIAN_HERB,   // 1
@@ -29,8 +40,8 @@ int main() {
     // Name the burger, and display its details
     strcpy(chicken.name, "McSpicy Chicken");
     printf("Name of Burger: %s\n", chicken.name);
-    printf("Number of cheese slices: %d\n", chicken.cheese_slices);
     printf("Type of bread: %d\n", chicken.bread);
+    printf("Number of cheese slices: %d\n", chicken.cheese_slices);
     // What went wrong? :(
 
     return 0;
